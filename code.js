@@ -36,7 +36,7 @@ cambiarTema.addEventListener("click", alternarColorTema);
 function obtenerDatosDelUsuario() {
   /* --------------- PUNTO 1: Escribe tu codigo a partir de aqui --------------- */
   let encabezados= ["Ingresa tu nombre", "ingresa el año en que naciste",
-  "Ingresa donde vives" ,"te interesa java script"]
+  "Ingresa la ciudad en donde vives" ,"Te interesa java script?"]
   let h3= document.querySelectorAll("#sitio > div > h3 ")
   for (let i=0;i< encabezados.length;i++){
 
